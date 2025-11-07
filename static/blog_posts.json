@@ -3,18 +3,21 @@
         "id": 1,
         "author": "John Doe",
         "title": "First Post",
-        "content": "This is my first post. Am I sure?"
+        "content": "This is my first post. Am I sure?",
+        "likes": 1
     },
     {
         "id": 2,
         "author": "Jane Doe",
         "title": "Second Post",
-        "content": "This is another post. Yes that's true."
+        "content": "This is another post. Yes that's true.",
+        "likes": 2
     },
     {
         "id": 3,
         "author": "Sebastian",
         "title": "Fun fact",
-        "content": "Babies have more bones than adults"
+        "content": "Babies have more bones than adults.",
+        "likes": 3
     }
 ]
