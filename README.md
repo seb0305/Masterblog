@@ -1,55 +1,63 @@
-Flask Blog App
-This is a simple blog application built with Flask. It allows users to create, view, update, delete, and like blog posts stored in a JSON file.
+# Flask Blog App
+## About
+This project is a simple blog application built using the Flask web framework. It allows users to view, add, update, delete, and like blog posts stored in a JSON file.
 
-Features
-View all blog posts on the homepage.
+## Features
+- Display all blog posts on the homepage.
 
-Add new blog posts via a form.
+- Add new posts through a dedicated form.
 
-Update existing blog posts.
+- Update existing posts.
 
-Delete blog posts.
+- Delete posts.
 
-Like blog posts to increment their like count.
+- Like posts to increment their like count.
 
-Project Structure
-app.py: The main Flask application with routes for CRUD operations.
+## Project Structure
+app.py - The main Flask application, handling routes and post data management.
 
-blog_posts.json: JSON file storing blog posts.
+blog_posts.json - JSON storage file holding the blog posts data.
 
-Templates:
+### HTML Templates:
 
-index.html: Displays all blog posts.
+index.html - Displays the list of all posts.
 
-add.html: Form for adding a new post.
+add.html - Form to add a new blog post.
 
-update.html: Form for updating a post.
+update.html - Form to edit an existing blog post.
 
-style.css: CSS styles for the application.
+style.css - Styling for the app's web pages.
 
-Installation
-Clone the repository.
+## Installation
+### Prerequisites
+Python 3.7+
 
-Create a virtual environment and activate it.
+Flask
 
-Install Flask:
-
-text
+### Setup Instructions
+1. Clone the repository:
+git clone https://github.com/seb0305/Masterblog.git
+cd Masterblog
+2. (Optional) Create and activate a virtual environment:
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+3. Install dependencies:
 pip install Flask
-Run the app:
-
-text
+4. Run the app:
 python app.py
-Open your browser and go to http://127.0.0.1:5000/.
+5. Open your browser and visit http://127.0.0.1:5000/ to access the blog.
 
-Usage
-The homepage lists all blog posts with options to like, update, or delete each post.
+## Usage 
+- The homepage lists all blog posts with options to like, update, or delete each.
 
-Use the "Add Post" link to create a new blog post.
+- Use the "Add Post" link to create new posts.
 
-Updates and deletions refresh the list automatically.
+- Updates and deletions refresh immediately on the homepage.
 
-Notes
-All data is stored in blog_posts.json inside the static folder.
+## Notes
+All posts are stored in blog_posts.json in the static folder.
 
-Ensure the JSON file has proper read/write permissions.
+Make sure the JSON file has proper read/write permissions.
+
+## Contributing
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
